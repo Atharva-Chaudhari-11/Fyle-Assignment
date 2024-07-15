@@ -377,6 +377,12 @@ cards-wrapper {
     background-color: #fafafa;
     width: 100vw;
 }
+#WCUSection{
+    background-color: #fafafa;
+    margin: 40PX;
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
 
 .p-size {
     font-size: 19px;
@@ -394,6 +400,7 @@ cards-wrapper {
     font-size: 16px;
 }
 
+
 .WCU-section-card1 {
     width: 260px;
     border-radius: 8px;
@@ -402,6 +409,7 @@ cards-wrapper {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+  
 }
 .WCU-section-card1 p{
     margin-left: 20px;
@@ -468,6 +476,8 @@ cards-wrapper {
 .EG-section-bg-container {
     background-color: #fafafa;
     width: 100vw;
+    height: 600px;
+    padding-top:50px;
 }
 
 .ocg-size {
@@ -1074,4 +1084,8 @@ margin-top: 60px;
      color: red;
      padding: 10px;
      border-radius: 20px;
+     }
+
+     .backchange:hover{
+        box-shadow: 3px 3px rgb(110, 188, 163), 1em 0 .4em rgb(220, 220, 218);
      }

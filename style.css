@@ -457,12 +457,12 @@ cards-wrapper {
     font-weight: 500;
 }
 
-.OP-bg-card {
-    background-color: #ff3147;
+.colorC:hover{
+    background-color: var(--pinkish-red);
 }
 
 .clr {
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .EG-section-bg-container {

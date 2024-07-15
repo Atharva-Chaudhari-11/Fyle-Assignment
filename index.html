@@ -252,19 +252,19 @@
             <div>
                 <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717316959/image_oe28ow.png" class="OP-img-style" id="changableImage" />
             </div>
-            <div class="OP-cards-container ml-4 check1">
-                <div class="OP-card p-4" id="project1">
-                    <h1 class="OP-card-heading" id="pheading1"> Genderless Kei â€“ Japanâ€™s Hot </h1>
+            <div class="OP-cards-container  OP-bg-card ml-4 check1">
+                <div class="OP-card p-4 colorC" id="project1">
+                    <h1 class="OP-card-heading" id="pheading1" onmouseover="changeImage(this)"> Genderless Kei â€“ Japanâ€™s Hot </h1>
                     <p class="OP-card-description mt-3" id="pdescriptiion1"> Set to launch on the
                         manufacturerâ€™s new A330neo aircraft in 2017, itâ€™s offering lots of </p>
                 </div>
-                <div class="OP-card OP-bg-card r p-4" id="project2">
-                    <h1 class="OP-card-heading clr" id="pheading2"> Better Strategy & Quality </h1>
+                <div class="OP-card r p-4 colorC" id="project2">
+                    <h1 class="OP-card-heading clr" id="pheading2" onmouseover="changeImage1(this)"> Better Strategy & Quality </h1>
                     <p class="OP-card-description mt-3 clr" id="pdescriptiion2"> Set to launch on the
                         manufacturerâ€™s new A330neo aircraft in 2017, itâ€™s offering lots of </p>
                 </div>
-                <div class="OP-card p-4" id="project3">
-                    <h1 class="OP-card-heading" id="pheading3"> Genderless Kei â€“ Japanâ€™s Hot </h1>
+                <div class="OP-card p-4 colorC" id="project3">
+                    <h1 class="OP-card-heading OP-bg-card" id="pheading3" onmouseover="changeImage2(this)"> Genderless Kei â€“ Japanâ€™s Hot </h1>
                     <p class="OP-card-description mt-3" id="pdescriptiion3"> Set to launch on the
                         manufacturerâ€™s new A330neo aircraft in 2017, itâ€™s offering lots of </p>
                 </div>
@@ -337,5 +337,28 @@
     <script src="script.js"></script>
 
     
+<script>
+    function changeImage(element) {
+        // Assuming each <h1> has a corresponding image to change
+        var imageSrc = './images/image.png'; // Add the image URL you want to change to
+
+        // Example of changing the image source
+        document.getElementById('changableImage').src = imageSrc;
+    }
+    function changeImage1(element) {
+        // Assuming each <h1> has a corresponding image to change
+        var imageSrc = 'https://images.pexels.com/photos/15283255/pexels-photo-15283255/free-photo-of-london-bridge-and-the-thames.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; // Add the image URL you want to change to
+
+        // Example of changing the image source
+        document.getElementById('changableImage').src = imageSrc;
+    }
+    function changeImage2(element) {
+        // Assuming each <h1> has a corresponding image to change
+        var imageSrc = 'https://images.pexels.com/photos/27057427/pexels-photo-27057427/free-photo-of-house-of-the-black-heads.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'; // Add the image URL you want to change to
+
+        // Example of changing the image source
+        document.getElementById('changableImage').src = imageSrc;
+    }
+</script>
 </body>
 </html>
